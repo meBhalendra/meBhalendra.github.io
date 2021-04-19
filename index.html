@@ -1,213 +1,208 @@
 <!DOCTYPE html>
 <html lang="en" style="padding: 0; margin: 0">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.png" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <title>Bhalendra Singh Katiyar #meBhalendra</title>
-    <meta name="description" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
-    <meta property="og:title" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
-    <meta property="og:description" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
-    <meta property="og:url" content="https://meBhalendra.github.io" />
-    <meta
-      property="og:image"
-      content="https://meBhalendra.github.io/bhalendra-singh-katiyar-meBhalendra-200.jpg"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://meBhalendra.github.io/bhalendra-singh-katiyar-meBhalendra-180.jpg"
-    />
-    <meta property="og:type" content="website" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYXMD0YD9L"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-WYXMD0YD9L');
-    </script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: "Oswald", sans-serif;
-      }
-      .first-div {
-        height: 98vh;
-        background-color: #555;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-      }
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+  <title>Bhalendra Singh Katiyar #meBhalendra</title>
+  <meta name="description" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
+  <meta property="og:title" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
+  <meta property="og:description" content="Bhalendra Singh Katiyar #meBhalendra Profile Site" />
+  <meta property="og:url" content="https://meBhalendra.github.io" />
+  <meta property="og:image" content="https://meBhalendra.github.io/bhalendra-singh-katiyar-meBhalendra-200.jpg" />
+  <link rel="apple-touch-icon" href="https://meBhalendra.github.io/bhalendra-singh-katiyar-meBhalendra-180.jpg" />
+  <meta property="og:type" content="website" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WYXMD0YD9L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WYXMD0YD9L');
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: "Oswald", sans-serif;
+    }
+
+    .first-div {
+      height: 98vh;
+      background-color: #555;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .webp .first-div {
+      background-image: url(bg.webp);
+    }
+
+    .no-webp .first-div {
+      background-image: url(bg.jpg);
+    }
+
+    @media only screen and (max-width: 600px) {
       .webp .first-div {
-        background-image: url(bg.webp);
+        background-image: url(bg-mobile.webp);
       }
-      .no-webp .first-div {
-        background-image: url(bg.jpg);
-      }
-      @media only screen and (max-width: 600px) {
-        .webp .first-div {
-          background-image: url(bg-mobile.webp);
-        }
-        .no-webp .first-div {
-          background-image: url(bg-mobile.jpg);
 
-        }
-        .logo-div {
-          display: none;
-        }
+      .no-webp .first-div {
+        background-image: url(bg-mobile.jpg);
+
       }
-      .title-div {
-        font-size: 3rem;
-        margin-bottom: 7rem;
-        padding: 0 1rem 0.5rem 1rem;
-        border-bottom: 12px solid rgba(255, 82, 82, 1);
-        color: white;
-        line-height: 1.2;
-        min-width: 40%;
-        text-align: center;
-      }
-      .title-div h1 {
-        font-size: 4.5rem;
-        padding: 0;
-        margin: 0;
-      }
-      .text-div {
-        padding: 0;
-        font-size: 2rem;
-        line-height: 2;
-        text-align: center;
-      }
-      .text-div img {
-        vertical-align: middle;
-        max-height: 2.5rem;
-      }
-      .email-text-div {
-        padding: 1rem 0 2rem 0;
-        font-size: 1.1rem;
-        line-height: 2;
-        text-align: center;
-        font-family: sans-serif;
-        margin-top: 1rem;
-        color: #111;
-      }
-      .copyright-text-div {
-        padding: 1rem 0 2rem 0;
-        font-size: 1.1rem;
-        line-height: 2;
-        text-align: center;
-        font-family: sans-serif;
-        color: #111;
-      }
-      .divider-div {
-        margin: 1rem 6rem 1rem 6rem;
-        border-bottom: 3px solid rgba(255, 82, 82, 0.8);
-      }
+
       .logo-div {
-        position: absolute;
-        top: 0;
-        left: 0;
-        cursor: pointer;
-        padding: 1rem;
-        color: white;
-        font-size: 1.5rem;
+        display: none;
       }
-      .logo-div img {
-        width: 2.5rem;
-        float: left;
-        margin-right: 0.5rem;
-      }
-      .underline {
-        border-bottom: 2px solid rgba(255, 82, 82, 0.8);
-      }
-      .profile-photo {
-        height: 40vh;
-        border-radius: 10rem;
-      }
-      .text-div a {
-        text-decoration: none;
-      }
-      .hi-text {
-        font-size: 1.8rem;
-        color: #333;
-        padding-top: 1rem;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="first-div">
-      <div class="logo-div">#meBhalendra</div>
-      <div class="title-div">
-        <img
-          class="profile-photo"
-          src="/bhalendra-singh-katiyar-meBhalendra.jpeg"
-        />
-        <h1>BHALENDRA SINGH KATIYAR</h1>
-      </div>
-      <svg
-        viewBox="0 0 24 24"
-        focusable="false"
-        style="width: 5rem; position: absolute; bottom: 0; cursor: pointer"
-        onclick="document.querySelector('.text-div').scrollIntoView({ behavior: 'smooth' })"
-      >
-        <path
-          d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
-          fill="rgba(200,200,200,0.5)"
-        ></path>
-        <path d="M0-.75h24v24H0z" fill="none"></path>
-      </svg>
+    }
+
+    .title-div {
+      font-size: 3rem;
+      margin-bottom: 7rem;
+      padding: 0 1rem 0.5rem 1rem;
+      border-bottom: 7px solid rgba(255, 82, 82, 1);
+      color: white;
+      line-height: 1.2;
+      min-width: 40%;
+      text-align: center;
+    }
+
+    .title-div h1 {
+      font-size: 3.5rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .text-div {
+      padding: 0;
+      font-size: 2rem;
+      line-height: 2;
+      text-align: center;
+    }
+
+    .text-div img {
+      vertical-align: middle;
+      max-height: 2.5rem;
+    }
+
+    .email-text-div {
+      padding: 1rem;
+      font-size: 1.1rem;
+      line-height: 2;
+      text-align: center;
+      margin-top: 1rem;
+      color: #111;
+      display: inline-block;
+      border: 1px solid #777;
+      border-top-left-radius: 1rem;
+    }
+
+    .copyright-text-div {
+      padding: 1rem 0 2rem 0;
+      font-size: 1rem;
+      line-height: 2;
+      text-align: center;
+      color: #111;
+    }
+
+    .divider-div {
+      margin: 1rem 6rem 1rem 6rem;
+      border-bottom: 3px solid rgba(255, 82, 82, 0.8);
+    }
+
+    .logo-div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+      padding: 1rem;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .logo-div img {
+      width: 2.5rem;
+      float: left;
+      margin-right: 0.5rem;
+    }
+
+    .underline {
+      border-bottom: 2px solid rgba(255, 82, 82, 0.8);
+    }
+
+    .profile-photo {
+      height: 40vh;
+      border-radius: 10rem;
+    }
+
+    .text-div a {
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+    .text-div a img {
+      height: 1.6rem;
+    }
+
+    .hi-text {
+      font-size: 1.7rem;
+      color: #333;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="first-div">
+    <div class="logo-div">#meBhalendra</div>
+    <div class="title-div">
+      <img class="profile-photo" src="/bhalendra-singh-katiyar-meBhalendra.png" style="margin-bottom: 2rem;" />
+      <h1>BHALENDRA SINGH KATIYAR</h1>
     </div>
-    <div class="text-div">
-      <div class="hi-text">Software Engineering & Other Things 🎭</div>
-      <div style="display: inline-block; text-align: left;">
-      <a href="https://www.instagram.com/mebhalendra"
-        ><img src="instagram.png"/> Instagram/meBhalendra</a
-      >
+    <svg viewBox="0 0 24 24" focusable="false" style="width: 5rem; position: absolute; bottom: 0; cursor: pointer"
+      onclick="document.querySelector('.text-div').scrollIntoView({ behavior: 'smooth' })">
+      <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z" fill="rgba(200,200,200,0.5)"></path>
+      <path d="M0-.75h24v24H0z" fill="none"></path>
+    </svg>
+  </div>
+  <div class="text-div">
+    <div class="hi-text">Software Engineering & Other Things 🎭</div>
+    <div style="display: inline-block; text-align: left;">
+      <a href="https://www.instagram.com/mebhalendra"><img src="instagram.png" /> Instagram/meBhalendra</a>
       <br />
-      <a href="https://www.youtube.com/channel/UCXVI2Xu5FmsYSCeoc800Wng"
-        ><img src="youtube.png"/> YouTube/meBhalendra</a
-      >
+      <a href="https://www.youtube.com/channel/UCXVI2Xu5FmsYSCeoc800Wng"><img src="youtube.png" />
+        YouTube/meBhalendra</a>
       <br />
-      <a href="https://twitter.com/meBhalendra"><img src="twitter.png"/> Twitter/meBhalendra</a>
+      <a href="https://twitter.com/meBhalendra"><img src="twitter.png" /> Twitter/meBhalendra</a>
       <br />
-      <a href="https://www.linkedin.com/in/meBhalendra"
-        ><img src="linkedin.png"/> Linkedin/meBhalendra</a
-      >
+      <a href="https://www.linkedin.com/in/meBhalendra"><img src="linkedin.png" /> Linkedin/meBhalendra</a>
       <br />
-      <a href="https://github.com/meBhalendra"><img src="github.png"/> Github/meBhalendra</a>
+      <a href="https://github.com/meBhalendra"><img src="github.png" /> Github/meBhalendra</a>
       <br />
-      <a href="https://www.facebook.com/meBhalendra"
-        ><img src="facebook.png"/> Facebook/meBhalendra</a
-      >
+      <a href="https://www.facebook.com/meBhalendra"><img src="facebook.png" /> Facebook/meBhalendra</a>
       <br />
-      <a href="https://mebhalendra.medium.com"
-        ><img src="medium.png"/> Medium/meBhalendra</a
-      >
+      <a href="https://mebhalendra.medium.com"><img src="medium.png" /> Medium/meBhalendra</a>
       <br />
-      <a href="https://www.kaggle.com/mebhalendra"
-        ><img src="kaggle.png"/> Kaggle/meBhalendra</a
-      >
+      <a href="https://www.kaggle.com/mebhalendra"><img src="kaggle.png" /> Kaggle/meBhalendra</a>
       <br />
-      </div>
+    </div>
+    <br />
     <div class="email-text-div">
-      <b>YouCanSendMeEmail</b> @ <b>icloud</b>.com
+      YouCanSendMeEmail @ icloud.com
     </div>
     <div class="divider-div"></div>
     <div class="copyright-text-div">
       &copy; <span id="year">2020</span> meBhalendra.github.io
       <br />
-      &lt;&gt; <b>Made in INDIA</b> &lt;/&gt;
+      &lt;&gt; Made in INDIA &lt;/&gt;
     </div>
     <script>
       document.querySelector("#year").innerHTML = new Date().getFullYear();
@@ -226,7 +221,7 @@
           }
           Modernizr._config.enableClasses &&
             ((n += " " + A + e.join(" " + A)),
-            c ? (u.className.baseVal = n) : (u.className = n));
+              c ? (u.className.baseVal = n) : (u.className = n));
         }
         function t(e, n) {
           return typeof e === n;
@@ -237,10 +232,10 @@
             if (r.hasOwnProperty(f)) {
               if (
                 ((e = []),
-                (n = r[f]),
-                n.name &&
+                  (n = r[f]),
+                  n.name &&
                   (e.push(n.name.toLowerCase()),
-                  n.options && n.options.aliases && n.options.aliases.length))
+                    n.options && n.options.aliases && n.options.aliases.length))
               )
                 for (A = 0; A < n.options.aliases.length; A++)
                   e.push(n.options.aliases[A].toLowerCase());
@@ -254,8 +249,8 @@
                   1 === l.length
                     ? (Modernizr[l[0]] = o)
                     : (!Modernizr[l[0]] ||
-                        Modernizr[l[0]] instanceof Boolean ||
-                        (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])),
+                      Modernizr[l[0]] instanceof Boolean ||
+                      (Modernizr[l[0]] = new Boolean(Modernizr[l[0]])),
                       (Modernizr[l[0]][l[1]] = o)),
                   s.push((o ? "" : "no-") + l.join("-"));
             }
@@ -272,8 +267,8 @@
               1 == t.length
                 ? (Modernizr[t[0]] = n)
                 : (!Modernizr[t[0]] ||
-                    Modernizr[t[0]] instanceof Boolean ||
-                    (Modernizr[t[0]] = new Boolean(Modernizr[t[0]])),
+                  Modernizr[t[0]] instanceof Boolean ||
+                  (Modernizr[t[0]] = new Boolean(Modernizr[t[0]])),
                   (Modernizr[t[0]][t[1]] = n)),
               o([(n && 0 != n ? "" : "no-") + t.join("-")]),
               Modernizr._trigger(e, n);
@@ -304,7 +299,7 @@
               r.push({ name: null, fn: e });
             },
           },
-          Modernizr = function () {};
+          Modernizr = function () { };
         (Modernizr.prototype = l), (Modernizr = new Modernizr());
         var f,
           u = n.documentElement,
@@ -314,20 +309,20 @@
           f =
             t(e, "undefined") || t(e.call, "undefined")
               ? function (e, n) {
-                  return n in e && t(e.constructor.prototype[n], "undefined");
-                }
+                return n in e && t(e.constructor.prototype[n], "undefined");
+              }
               : function (n, A) {
-                  return e.call(n, A);
-                };
+                return e.call(n, A);
+              };
         })(),
           (l._l = {}),
           (l.on = function (e, n) {
             this._l[e] || (this._l[e] = []),
               this._l[e].push(n),
               Modernizr.hasOwnProperty(e) &&
-                setTimeout(function () {
-                  Modernizr._trigger(e, Modernizr[e]);
-                }, 0);
+              setTimeout(function () {
+                Modernizr._trigger(e, Modernizr[e]);
+              }, 0);
           }),
           (l._trigger = function (e, n) {
             if (this._l[e]) {
@@ -353,27 +348,27 @@
               (t.onerror = o), (t.onload = o), (t.src = n);
             }
             var n = [
-                {
-                  uri:
-                    "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
-                  name: "webp",
-                },
-                {
-                  uri:
-                    "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
-                  name: "webp.alpha",
-                },
-                {
-                  uri:
-                    "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
-                  name: "webp.animation",
-                },
-                {
-                  uri:
-                    "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
-                  name: "webp.lossless",
-                },
-              ],
+              {
+                uri:
+                  "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+                name: "webp",
+              },
+              {
+                uri:
+                  "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+                name: "webp.alpha",
+              },
+              {
+                uri:
+                  "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+                name: "webp.animation",
+              },
+              {
+                uri:
+                  "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                name: "webp.lossless",
+              },
+            ],
               A = n.shift();
             e(A.name, A.uri, function (A) {
               if (A && "load" === A.type)
@@ -388,5 +383,6 @@
         e.Modernizr = Modernizr;
       })(window, document);
     </script>
-  </body>
+</body>
+
 </html>
